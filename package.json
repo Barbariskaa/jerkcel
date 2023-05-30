@@ -21,5 +21,9 @@
   "bugs": {
     "url": "https://github.com/Barbariskaa/jerkcel-rejerked/issues"
   },
-  "homepage": "https://github.com/Barbariskaa/jerkcel-rejerked#readme"
+  "homepage": "https://github.com/Barbariskaa/jerkcel-rejerked#readme",
+  "dependencies": {
+    "puppeteer": "^20.4.0"
+  },
+  "devDependencies": {}
 }
