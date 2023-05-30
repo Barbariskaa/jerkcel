@@ -367,6 +367,7 @@ async function main() {
     server.listen(5004, '0.0.0.0', async () => {
         connectToVercel(updateJson)
         console.log(`proxy for claude-v1: 'http://127.0.0.1:5004/anthropic/claude-v1'`);
+        console.log(`proxy for claude-instant-v1: 'http://127.0.0.1:5004/anthropic/claude-instant-v1'`);
     });
 }
 
